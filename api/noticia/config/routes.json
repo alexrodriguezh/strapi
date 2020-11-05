@@ -47,6 +47,13 @@
       "config": {
         "policies": []
       }
+    },{
+      "method": "GET",
+      "path": "/noticias/:url",
+      "handler": "noticia.findOneUrl",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
